@@ -1,0 +1,45 @@
+.mythomebody {
+	TEXT-TRANSFORM: none; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: Times New Roman, Tahoma, serif; BACKGROUND: url(tan_pape.gif); FONT-SIZE: medium; FONT-WEIGHT: 500; TEXT-DECORATION: none
+}
+H5.thumbnailrocrizin {
+	BACKGROUND-IMAGE: url(rocrizin.gif); PADDING-BOTTOM: 1pt; BORDER-RIGHT-WIDTH: 0px; PADDING-LEFT: 1pt; BACKGROUND-ATTACHMENT: fixed; PADDING-RIGHT: 1pt; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 1pt
+}
+#bannertype {
+	FONT-WEIGHT: bolder; font-color: black
+}
+.quotetype {
+	FONT-STYLE: italic; COLOR: black; FONT-SIZE: 90%; FONT-WEIGHT: bold
+}
+.standardtype {
+	COLOR: black; FONT-SIZE: 90%; FONT-WEIGHT: bolder
+}
+.largetype {
+	COLOR: black; FONT-SIZE: x-large
+}
+.largerlinktype {
+	FONT-SIZE: 130%
+}
+.mediumtype {
+	COLOR: black; FONT-SIZE: 110%; FONT-WEIGHT: bold
+}
+.tablelinktype {
+	FONT-SIZE: 110%
+}
+.linktype {
+	FONT-SIZE: 100%; FONT-WEIGHT: bold
+}
+.tablenonlinktype {
+	FONT-SIZE: smaller
+}
+.smalltype {
+	COLOR: white; FONT-SIZE: small
+}
+A:link {
+	COLOR: blue; FONT-SIZE: 100%
+}
+A:active {
+	COLOR: red; FONT-SIZE: 160%
+}
+A:visited {
+	COLOR: black; FONT-SIZE: 100%
+}
