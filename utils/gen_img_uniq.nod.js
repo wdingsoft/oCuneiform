@@ -56,6 +56,7 @@ var DirFilesUti = {
 
 const DefaultHtm = `
 
+
 <!-------------------Begin--------------->
 <script src="./jquery.js"></script>
 <script src="./uniqBasenameJid.json.js"></script>
@@ -67,15 +68,19 @@ const DefaultHtm = `
     .hili {
         border: 2px solid red;
     }
+    #txa{
+        position: fixed;
+        right:30px;
+    }
 </style>
 <script>
     function init_load_Jid() {
-        var imgAddr=""
+        var imgAddr="http://34.227.20.213/obi/data/obimg/odb/tbi/img/jgif/";//62859.gif
         for(let [basnam, obj] of Object.entries(uniqBasenameJid)){
             var ar = Object.keys(obj)
             var imgs = ""
             ar.forEach(function(jid){
-                imgs+="<img src='" + imgAddr + jid + ".jif'></img>"
+                imgs+="<img src='" + imgAddr + jid + ".gif'></img>"
             })
             $("td[title='"+basnam +"']").append(imgs)
         }
@@ -86,7 +91,7 @@ const DefaultHtm = `
     $(() => {
         init_load_Jid()
 
-        $(".editable").on("click",function(){
+        $(".editable").each(function(){
             $(this).attr("contenteditable",true)
         })
         
@@ -101,7 +106,7 @@ const DefaultHtm = `
         ///////////////////////////////////
         $("#txa").on("click", function () {
             var obj = {}
-            $("td[contenteditable]").each(function () {
+            $("td.editable").each(function () {
                 var title = $(this).attr("title")
                 $(this).find("img").each(function () {
                     if (!obj[title]) {
