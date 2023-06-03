@@ -71,14 +71,23 @@ function gen_uniq_basename(sdir) {
             console.log(spathfname, extnam)
         }
     })
+    //////sort by filesize
+    for(let [basename, ary] of Object.entries(retObj)){
+        ary.sort(function(f1,f2){
+            var sta1 = fs.statSync(f1)
+            var sta2 = fs.statSync(f2)
+            return sta2.size - sta1.size
+        })
+    }
+
     return retObj;
 }
 
 function main(sdir) {
     var retObj = gen_uniq_basename(sdir)
 
-    var str="var uniqBasenameObj = " + JSON.stringify(retObj,null,4)
-    fs.writeFileSync("uniqBasenameObj.json.js", str, "utf8");
+    var str="var uniqBasenamePathfileObj = " + JSON.stringify(retObj,null,4)
+    fs.writeFileSync("uniqBasenamePathfileObj.json.js", str, "utf8");
 
     console.log("Update: ", Object.keys(retObj).length);
 

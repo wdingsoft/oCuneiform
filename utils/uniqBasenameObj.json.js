@@ -789,8 +789,8 @@ var uniqBasenameObj = {
     ],
     "P286003_l.jpg": [
         "../cuneiform/british/british/CDLI-Found Texts_files/P286003_l.jpg",
-        "../cuneiform/british/british/b/P286003_l.jpg",
-        "../cuneiform/british/british/P286003_l.jpg"
+        "../cuneiform/british/british/P286003_l.jpg",
+        "../cuneiform/british/british/b/P286003_l.jpg"
     ],
     "P286004_l.jpg": [
         "../cuneiform/british/british/CDLI-Found Texts_files/P286004_l.jpg",

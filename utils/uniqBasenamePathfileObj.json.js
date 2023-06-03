@@ -1,307 +1,307 @@
 var uniqBasenamePathfileObj = {
     "P000723.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P000723.jpg",
-        "../cuneiform/cunei2/P000723.jpg"
+        "../cuneiform/cunei2/P000723.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P000723.jpg"
     ],
     "P000728.jpg": [
         "../cuneiform/CDLI-Found Texts_files/P000728.jpg"
     ],
     "P005576_l.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005576_l.jpg",
-        "../cuneiform/cunei2/P005576_l.jpg"
+        "../cuneiform/cunei2/P005576_l.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005576_l.jpg"
     ],
     "P005578.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005578.jpg",
-        "../cuneiform/cunei2/P005578.jpg"
+        "../cuneiform/cunei2/P005578.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005578.jpg"
     ],
     "P005584.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005584.jpg",
-        "../cuneiform/cunei2/P005584.jpg"
+        "../cuneiform/cunei2/P005584.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005584.jpg"
     ],
     "P005585.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005585.jpg",
-        "../cuneiform/cunei2/P005585.jpg"
+        "../cuneiform/cunei2/P005585.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005585.jpg"
     ],
     "P005599.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005599.jpg",
-        "../cuneiform/cunei2/P005599.jpg"
+        "../cuneiform/cunei2/P005599.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005599.jpg"
     ],
     "P005606.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005606.jpg",
-        "../cuneiform/cunei2/P005606.jpg"
+        "../cuneiform/cunei2/P005606.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005606.jpg"
     ],
     "P005613.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005613.jpg",
-        "../cuneiform/cunei2/P005613.jpg"
+        "../cuneiform/cunei2/P005613.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005613.jpg"
     ],
     "P005615.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005615.jpg",
-        "../cuneiform/cunei2/P005615.jpg"
+        "../cuneiform/cunei2/P005615.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005615.jpg"
     ],
     "P005619.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005619.jpg",
-        "../cuneiform/cunei2/P005619.jpg"
+        "../cuneiform/cunei2/P005619.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005619.jpg"
     ],
     "P005626.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005626.jpg",
-        "../cuneiform/cunei2/P005626.jpg"
+        "../cuneiform/cunei2/P005626.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005626.jpg"
     ],
     "P005635.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005635.jpg",
-        "../cuneiform/cunei2/P005635.jpg"
+        "../cuneiform/cunei2/P005635.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005635.jpg"
     ],
     "P005644.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005644.jpg",
         "../cuneiform/cunei2/P005644.jpg",
-        "../cuneiform/turtle-bone-clay/P005644.jpg"
+        "../cuneiform/turtle-bone-clay/P005644.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005644.jpg"
     ],
     "P005647.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005647.jpg",
         "../cuneiform/cunei2/P005647.jpg",
-        "../cuneiform/turtle-bone-clay/P005647.jpg"
+        "../cuneiform/turtle-bone-clay/P005647.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005647.jpg"
     ],
     "P005648.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005648.jpg",
-        "../cuneiform/cunei2/P005648.jpg"
+        "../cuneiform/cunei2/P005648.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005648.jpg"
     ],
     "P005650.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005650.jpg",
-        "../cuneiform/cunei2/P005650.jpg"
+        "../cuneiform/cunei2/P005650.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005650.jpg"
     ],
     "P005652.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005652.jpg",
-        "../cuneiform/cunei2/P005652.jpg"
+        "../cuneiform/cunei2/P005652.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005652.jpg"
     ],
     "P005655.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005655.jpg",
-        "../cuneiform/cunei2/P005655.jpg"
+        "../cuneiform/cunei2/P005655.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005655.jpg"
     ],
     "P005656.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005656.jpg",
-        "../cuneiform/cunei2/P005656.jpg"
+        "../cuneiform/cunei2/P005656.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005656.jpg"
     ],
     "P005659.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005659.jpg",
-        "../cuneiform/cunei2/P005659.jpg"
+        "../cuneiform/cunei2/P005659.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005659.jpg"
     ],
     "P005665.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005665.jpg",
-        "../cuneiform/cunei2/P005665.jpg"
+        "../cuneiform/cunei2/P005665.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005665.jpg"
     ],
     "P005667_l.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005667_l.jpg",
-        "../cuneiform/cunei2/P005667_l.jpg"
+        "../cuneiform/cunei2/P005667_l.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005667_l.jpg"
     ],
     "P005674.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005674.jpg",
-        "../cuneiform/cunei2/P005674.jpg"
+        "../cuneiform/cunei2/P005674.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005674.jpg"
     ],
     "P005675.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005675.jpg",
-        "../cuneiform/cunei2/P005675.jpg"
+        "../cuneiform/cunei2/P005675.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005675.jpg"
     ],
     "P005682_l.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005682_l.jpg",
-        "../cuneiform/cunei2/P005682_l.jpg"
+        "../cuneiform/cunei2/P005682_l.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005682_l.jpg"
     ],
     "P005700.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005700.jpg",
-        "../cuneiform/cunei2/P005700.jpg"
+        "../cuneiform/cunei2/P005700.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005700.jpg"
     ],
     "P005701.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005701.jpg",
-        "../cuneiform/cunei2/P005701.jpg"
+        "../cuneiform/cunei2/P005701.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005701.jpg"
     ],
     "P005703.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005703.jpg",
-        "../cuneiform/cunei2/P005703.jpg"
+        "../cuneiform/cunei2/P005703.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005703.jpg"
     ],
     "P005704.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005704.jpg",
-        "../cuneiform/cunei2/P005704.jpg"
+        "../cuneiform/cunei2/P005704.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005704.jpg"
     ],
     "P005706.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005706.jpg",
-        "../cuneiform/cunei2/P005706.jpg"
+        "../cuneiform/cunei2/P005706.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005706.jpg"
     ],
     "P005710.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005710.jpg",
-        "../cuneiform/cunei2/P005710.jpg"
+        "../cuneiform/cunei2/P005710.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005710.jpg"
     ],
     "P005713.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005713.jpg",
-        "../cuneiform/cunei2/P005713.jpg"
+        "../cuneiform/cunei2/P005713.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005713.jpg"
     ],
     "P005717.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005717.jpg",
-        "../cuneiform/cunei2/P005717.jpg"
+        "../cuneiform/cunei2/P005717.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005717.jpg"
     ],
     "P005723.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005723.jpg",
-        "../cuneiform/cunei2/P005723.jpg"
+        "../cuneiform/cunei2/P005723.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005723.jpg"
     ],
     "P005724.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005724.jpg",
-        "../cuneiform/cunei2/P005724.jpg"
+        "../cuneiform/cunei2/P005724.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005724.jpg"
     ],
     "P005727.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005727.jpg",
-        "../cuneiform/cunei2/P005727.jpg"
+        "../cuneiform/cunei2/P005727.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005727.jpg"
     ],
     "P005728.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005728.jpg",
-        "../cuneiform/cunei2/P005728.jpg"
+        "../cuneiform/cunei2/P005728.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005728.jpg"
     ],
     "P005731.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005731.jpg",
-        "../cuneiform/cunei2/P005731.jpg"
+        "../cuneiform/cunei2/P005731.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005731.jpg"
     ],
     "P005733.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005733.jpg",
-        "../cuneiform/cunei2/P005733.jpg"
+        "../cuneiform/cunei2/P005733.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005733.jpg"
     ],
     "P005735.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005735.jpg",
-        "../cuneiform/cunei2/P005735.jpg"
+        "../cuneiform/cunei2/P005735.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005735.jpg"
     ],
     "P005738.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005738.jpg",
-        "../cuneiform/cunei2/P005738.jpg"
+        "../cuneiform/cunei2/P005738.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005738.jpg"
     ],
     "P005741.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005741.jpg",
-        "../cuneiform/cunei2/P005741.jpg"
+        "../cuneiform/cunei2/P005741.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005741.jpg"
     ],
     "P005754_l.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005754_l.jpg",
-        "../cuneiform/cunei2/P005754_l.jpg"
+        "../cuneiform/cunei2/P005754_l.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005754_l.jpg"
     ],
     "P005755.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005755.jpg",
         "../cuneiform/cunei2/P005755.jpg",
-        "../cuneiform/turtle-bone-clay/P005755.jpg"
+        "../cuneiform/turtle-bone-clay/P005755.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005755.jpg"
     ],
     "P005756.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005756.jpg",
         "../cuneiform/cunei2/P005756.jpg",
-        "../cuneiform/turtle-bone-clay/P005756.jpg"
+        "../cuneiform/turtle-bone-clay/P005756.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005756.jpg"
     ],
     "P005759.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005759.jpg",
-        "../cuneiform/cunei2/P005759.jpg"
+        "../cuneiform/cunei2/P005759.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005759.jpg"
     ],
     "P005761.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005761.jpg",
-        "../cuneiform/cunei2/P005761.jpg"
+        "../cuneiform/cunei2/P005761.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005761.jpg"
     ],
     "P005763.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005763.jpg",
-        "../cuneiform/cunei2/P005763.jpg"
+        "../cuneiform/cunei2/P005763.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005763.jpg"
     ],
     "P005764.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005764.jpg",
-        "../cuneiform/cunei2/P005764.jpg"
+        "../cuneiform/cunei2/P005764.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005764.jpg"
     ],
     "P005769.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005769.jpg",
         "../cuneiform/cunei2/P005769.jpg",
-        "../cuneiform/turtle-bone-clay/P005769.jpg"
+        "../cuneiform/turtle-bone-clay/P005769.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005769.jpg"
     ],
     "P005770.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005770.jpg",
-        "../cuneiform/cunei2/P005770.jpg"
+        "../cuneiform/cunei2/P005770.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005770.jpg"
     ],
     "P005775.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005775.jpg",
-        "../cuneiform/cunei2/P005775.jpg"
+        "../cuneiform/cunei2/P005775.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005775.jpg"
     ],
     "P005777.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005777.jpg",
-        "../cuneiform/cunei2/P005777.jpg"
+        "../cuneiform/cunei2/P005777.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005777.jpg"
     ],
     "P005785.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005785.jpg",
-        "../cuneiform/cunei2/P005785.jpg"
+        "../cuneiform/cunei2/P005785.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005785.jpg"
     ],
     "P005798.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005798.jpg",
-        "../cuneiform/cunei2/P005798.jpg"
+        "../cuneiform/cunei2/P005798.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005798.jpg"
     ],
     "P005799.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005799.jpg",
-        "../cuneiform/cunei2/P005799.jpg"
+        "../cuneiform/cunei2/P005799.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005799.jpg"
     ],
     "P005800.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005800.jpg",
-        "../cuneiform/cunei2/P005800.jpg"
+        "../cuneiform/cunei2/P005800.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005800.jpg"
     ],
     "P005812.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005812.jpg",
-        "../cuneiform/cunei2/P005812.jpg"
+        "../cuneiform/cunei2/P005812.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005812.jpg"
     ],
     "P005813.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005813.jpg",
-        "../cuneiform/cunei2/P005813.jpg"
+        "../cuneiform/cunei2/P005813.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005813.jpg"
     ],
     "P005814.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005814.jpg",
-        "../cuneiform/cunei2/P005814.jpg"
+        "../cuneiform/cunei2/P005814.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005814.jpg"
     ],
     "P005815.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005815.jpg",
-        "../cuneiform/cunei2/P005815.jpg"
+        "../cuneiform/cunei2/P005815.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005815.jpg"
     ],
     "P005816.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005816.jpg",
-        "../cuneiform/cunei2/P005816.jpg"
+        "../cuneiform/cunei2/P005816.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005816.jpg"
     ],
     "P005817.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005817.jpg",
-        "../cuneiform/cunei2/P005817.jpg"
+        "../cuneiform/cunei2/P005817.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005817.jpg"
     ],
     "P005832.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005832.jpg",
-        "../cuneiform/cunei2/P005832.jpg"
+        "../cuneiform/cunei2/P005832.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005832.jpg"
     ],
     "P005833.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005833.jpg",
-        "../cuneiform/cunei2/P005833.jpg"
+        "../cuneiform/cunei2/P005833.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005833.jpg"
     ],
     "P005835.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005835.jpg",
-        "../cuneiform/cunei2/P005835.jpg"
+        "../cuneiform/cunei2/P005835.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005835.jpg"
     ],
     "P005837.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005837.jpg",
-        "../cuneiform/cunei2/P005837.jpg"
+        "../cuneiform/cunei2/P005837.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005837.jpg"
     ],
     "P005845.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005845.jpg",
-        "../cuneiform/cunei2/P005845.jpg"
+        "../cuneiform/cunei2/P005845.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005845.jpg"
     ],
     "P005847_l.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005847_l.jpg",
-        "../cuneiform/cunei2/P005847_l.jpg"
+        "../cuneiform/cunei2/P005847_l.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005847_l.jpg"
     ],
     "P005852.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005852.jpg",
-        "../cuneiform/cunei2/P005852.jpg"
+        "../cuneiform/cunei2/P005852.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005852.jpg"
     ],
     "P005858.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005858.jpg",
-        "../cuneiform/cunei2/P005858.jpg"
+        "../cuneiform/cunei2/P005858.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005858.jpg"
     ],
     "P005861.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005861.jpg",
-        "../cuneiform/cunei2/P005861.jpg"
+        "../cuneiform/cunei2/P005861.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005861.jpg"
     ],
     "P005862.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005862.jpg",
-        "../cuneiform/cunei2/P005862.jpg"
+        "../cuneiform/cunei2/P005862.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005862.jpg"
     ],
     "P005866.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005866.jpg",
-        "../cuneiform/turtle-bone-clay/P005866.jpg"
+        "../cuneiform/turtle-bone-clay/P005866.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005866.jpg"
     ],
     "P005877.jpg": [
         "../cuneiform/CDLI-Found Texts_files/P005877.jpg"
@@ -337,20 +337,20 @@ var uniqBasenamePathfileObj = {
         "../cuneiform/CDLI-Found Texts_files/P005957a.jpg"
     ],
     "P005988.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P005988.jpg",
-        "../cuneiform/cunei2/P005988.jpg"
+        "../cuneiform/cunei2/P005988.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P005988.jpg"
     ],
     "P221629.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P221629.jpg",
-        "../cuneiform/cunei2/P221629.jpg"
+        "../cuneiform/cunei2/P221629.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P221629.jpg"
     ],
     "P338129_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338129_ls.jpg",
-        "../cuneiform/cunei2/P338129_ls.jpg"
+        "../cuneiform/cunei2/P338129_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338129_ls.jpg"
     ],
     "P338135_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338135_ls.jpg",
-        "../cuneiform/cunei2/P338135_ls.jpg"
+        "../cuneiform/cunei2/P338135_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338135_ls.jpg"
     ],
     "P338136_ls.jpg": [
         "../cuneiform/CDLI-Found Texts_files/P338136_ls.jpg"
@@ -530,12 +530,12 @@ var uniqBasenamePathfileObj = {
         "../cuneiform/CDLI-Found Texts_files/P338245_ls.jpg"
     ],
     "P338248_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338248_ls.jpg",
-        "../cuneiform/cunei2/P338248_ls.jpg"
+        "../cuneiform/cunei2/P338248_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338248_ls.jpg"
     ],
     "P338252_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338252_ls.jpg",
-        "../cuneiform/cunei2/P338252_ls.jpg"
+        "../cuneiform/cunei2/P338252_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338252_ls.jpg"
     ],
     "P338253_ls.jpg": [
         "../cuneiform/CDLI-Found Texts_files/P338253_ls.jpg"
@@ -547,8 +547,8 @@ var uniqBasenamePathfileObj = {
         "../cuneiform/CDLI-Found Texts_files/P338256_ls.jpg"
     ],
     "P338257_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338257_ls.jpg",
-        "../cuneiform/cunei2/P338257_ls.jpg"
+        "../cuneiform/cunei2/P338257_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338257_ls.jpg"
     ],
     "P338258_ls.jpg": [
         "../cuneiform/CDLI-Found Texts_files/P338258_ls.jpg"
@@ -560,8 +560,8 @@ var uniqBasenamePathfileObj = {
         "../cuneiform/CDLI-Found Texts_files/P338266_ls.jpg"
     ],
     "P338267_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338267_ls.jpg",
-        "../cuneiform/cunei2/P338267_ls.jpg"
+        "../cuneiform/cunei2/P338267_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338267_ls.jpg"
     ],
     "P338276_ls.jpg": [
         "../cuneiform/CDLI-Found Texts_files/P338276_ls.jpg"
@@ -573,47 +573,47 @@ var uniqBasenamePathfileObj = {
         "../cuneiform/CDLI-Found Texts_files/P338287_ls.jpg"
     ],
     "P338294_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338294_ls.jpg",
-        "../cuneiform/cunei2/P338294_ls.jpg"
+        "../cuneiform/cunei2/P338294_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338294_ls.jpg"
     ],
     "P338295_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338295_ls.jpg",
-        "../cuneiform/cunei2/P338295_ls.jpg"
+        "../cuneiform/cunei2/P338295_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338295_ls.jpg"
     ],
     "P338296_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338296_ls.jpg",
-        "../cuneiform/cunei2/P338296_ls.jpg"
+        "../cuneiform/cunei2/P338296_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338296_ls.jpg"
     ],
     "P338297_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338297_ls.jpg",
-        "../cuneiform/cunei2/P338297_ls.jpg"
+        "../cuneiform/cunei2/P338297_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338297_ls.jpg"
     ],
     "P338298_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338298_ls.jpg",
-        "../cuneiform/cunei2/P338298_ls.jpg"
+        "../cuneiform/cunei2/P338298_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338298_ls.jpg"
     ],
     "P338304_ls.jpg": [
-        "../cuneiform/CDLI-Found Texts_files/P338304_ls.jpg",
-        "../cuneiform/cunei2/P338304_ls.jpg"
+        "../cuneiform/cunei2/P338304_ls.jpg",
+        "../cuneiform/CDLI-Found Texts_files/P338304_ls.jpg"
     ],
     "sumeriandevelopment.jpg": [
         "../cuneiform/EvolutionofCuneiform/MythHome Evolution of Cuneiform_files/sumeriandevelopment.jpg"
     ],
     "P285941_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P285941_l.jpg",
-        "../cuneiform/british/british/b/P285941_l.jpg"
+        "../cuneiform/british/british/b/P285941_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P285941_l.jpg"
     ],
     "P285942_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P285942_l.jpg",
-        "../cuneiform/cunei2/P285942_l.jpg"
+        "../cuneiform/cunei2/P285942_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P285942_l.jpg"
     ],
     "P285943_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P285943_l.jpg",
-        "../cuneiform/british/british/b/P285943_l.jpg"
+        "../cuneiform/british/british/b/P285943_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P285943_l.jpg"
     ],
     "P285944_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P285944_l.jpg",
-        "../cuneiform/british/british/b/P285944_l.jpg"
+        "../cuneiform/british/british/b/P285944_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P285944_l.jpg"
     ],
     "P285945_l.jpg": [
         "../cuneiform/british/british/CDLI-Found Texts_files/P285945_l.jpg"
@@ -634,8 +634,8 @@ var uniqBasenamePathfileObj = {
         "../cuneiform/british/british/CDLI-Found Texts_files/P285950_l.jpg"
     ],
     "P285951_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P285951_l.jpg",
-        "../cuneiform/british/british/b/P285951_l.jpg"
+        "../cuneiform/british/british/b/P285951_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P285951_l.jpg"
     ],
     "P285952_l.jpg": [
         "../cuneiform/british/british/CDLI-Found Texts_files/P285952_l.jpg"
@@ -788,28 +788,28 @@ var uniqBasenamePathfileObj = {
         "../cuneiform/british/british/CDLI-Found Texts_files/P286002_l.jpg"
     ],
     "P286003_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P286003_l.jpg",
         "../cuneiform/british/british/b/P286003_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P286003_l.jpg",
         "../cuneiform/british/british/P286003_l.jpg"
     ],
     "P286004_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P286004_l.jpg",
-        "../cuneiform/british/british/b/P286004_l.jpg"
+        "../cuneiform/british/british/b/P286004_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P286004_l.jpg"
     ],
     "P286005_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P286005_l.jpg",
-        "../cuneiform/british/british/b/P286005_l.jpg"
+        "../cuneiform/british/british/b/P286005_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P286005_l.jpg"
     ],
     "P286006_l.jpg": [
         "../cuneiform/british/british/CDLI-Found Texts_files/P286006_l.jpg"
     ],
     "P286007_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P286007_l.jpg",
-        "../cuneiform/british/british/b/P286007_l.jpg"
+        "../cuneiform/british/british/b/P286007_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P286007_l.jpg"
     ],
     "P286008_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P286008_l.jpg",
-        "../cuneiform/british/british/b/P286008_l.jpg"
+        "../cuneiform/british/british/b/P286008_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P286008_l.jpg"
     ],
     "P286009_l.jpg": [
         "../cuneiform/british/british/CDLI-Found Texts_files/P286009_l.jpg"
@@ -845,8 +845,8 @@ var uniqBasenamePathfileObj = {
         "../cuneiform/british/british/CDLI-Found Texts_files/P286021_l.jpg"
     ],
     "P286022_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P286022_l.jpg",
-        "../cuneiform/british/british/b/P286022_l.jpg"
+        "../cuneiform/british/british/b/P286022_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P286022_l.jpg"
     ],
     "P286023_l.jpg": [
         "../cuneiform/british/british/CDLI-Found Texts_files/P286023_l.jpg"
@@ -918,8 +918,8 @@ var uniqBasenamePathfileObj = {
         "../cuneiform/british/british/CDLI-Found Texts_files/P286050_l.jpg"
     ],
     "P286051_l.jpg": [
-        "../cuneiform/british/british/CDLI-Found Texts_files/P286051_l.jpg",
-        "../cuneiform/british/british/b/P286051_l.jpg"
+        "../cuneiform/british/british/b/P286051_l.jpg",
+        "../cuneiform/british/british/CDLI-Found Texts_files/P286051_l.jpg"
     ],
     "P286052_l.jpg": [
         "../cuneiform/british/british/CDLI-Found Texts_files/P286052_l.jpg"
@@ -1899,8 +1899,8 @@ var uniqBasenamePathfileObj = {
         "../cuneiform/map_j2ec/P000226.jpg"
     ],
     "P000248.jpg": [
-        "../cuneiform/cunei2/P000248.jpg",
-        "../cuneiform/map_j2ec/P000248.jpg"
+        "../cuneiform/map_j2ec/P000248.jpg",
+        "../cuneiform/cunei2/P000248.jpg"
     ],
     "P000507.jpg": [
         "../cuneiform/cunei2/P000507.jpg",
