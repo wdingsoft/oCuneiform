@@ -93,10 +93,10 @@ const DefaultHtm = `
                     }
                     var src = $(this).attr("src")
                     var ids = src.slice(-9, -4)
-                    obj[title][ids] = $(".hili").attr("src")
+                    obj[title][ids] = 1;//$(".hili").attr("src")
                 })
             })
-            var str = JSON.stringify(obj, null, 4)
+            var str = "var uniqBasenameJid = " + JSON.stringify(obj, null, 4)
             $(this).val(str)
         })
     })
