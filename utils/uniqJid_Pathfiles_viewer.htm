@@ -35,6 +35,9 @@
     td.editable {
         background-color: antiquewhite;
     }
+    .jids{
+        font-size: xx-small;
+    }
 </style>
 <script>
     function get_cuneiform_icons(cunfnameAry) {
@@ -53,7 +56,7 @@
         var trs = "", idx = 0
         for (let [jid, obj] of Object.entries(jidObj)) {
             var ar = Object.keys(obj)
-            var imgs = "<img src='" + jidview.JidSrc(jid) + "'/>"
+            var imgs = "<img src='" + jidview.JidSrc(jid) + "'/><br><a class='jids'>" + jid +"</a>"
             trs += `<tr><td>${idx++}</td><td>${imgs}</td><td>${ar.length}</td>><td>${get_cuneiform_icons(ar)}</td></tr>`
         }
         $("#basenamePathfile tbody").append(trs)
