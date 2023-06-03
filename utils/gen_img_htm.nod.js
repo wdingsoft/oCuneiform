@@ -54,7 +54,7 @@ var DirFilesUti = {
     }
 }
 
-const DefaultHtm=`
+const DefaultHtm = `
 <style> 
 img{
     width:40px;
@@ -71,12 +71,52 @@ function zoomout(_this){
 </script>
 <img id="zoomer" style="width:400px;"/>
 `
-function main(sdir) {
 
+function get_uniq_basename(sdir) {
+    var retObj = {}
+    var imgext = [".png", ".jpg", ".jpeg", ".img", ".jdf"]
+    DirFilesUti.recursively_getPathFiles(sdir, function (spathfname) {
+        var extnam = path.extname(spathfname)
+        //console.log(spathfname, extnam)
+        //if(!.match(/\.htm$/i)) continue
+        if (imgext.indexOf(extnam) >= 0) {
+            var basenm = path.basename(spathfname)
+            if (!retObj[basenm]) {
+                retObj[basenm] = []
+            }
+            retObj[basenm].push(spathfname)
+            console.log(spathfname, extnam)
+        }
+    })
+    return retObj;
+}
+function trs_uniBasename(obj){
+    var trs="", idx=0;
+    for(let [basename, ar] of Object.entries(obj)){
+        trs+=`<tr><td>${idx++}</td><td>${basename}</td>`
+        ar.forEach(function(pthnm){
+            trs+=`<td><img src='${pthnm}'/></td>`
+        })
+        trs+="</tr>"
+    }
+    return trs;
+}
+function main(sdir) {
+    var retObj = get_uniq_basename(sdir)
+    fs.writeFileSync("uniqBasenameObj.json.js", JSON.stringify(retObj,null,4), "utf8");
+    console.log("Update: ", Object.keys(retObj).length);
+    var trs=trs_uniBasename(retObj)
+    var tabs=`${DefaultHtm}<table border='1'>${trs}</table>`
+    fs.writeFileSync("uniqBasenameObj.htm", tabs, "utf8");
+    return Object.keys(retObj).length
+}
+
+function main_htm(sdir) {
     var htm = DefaultHtm, idx = 0
     var imgext = [".png", ".jpg", ".jpeg", ".img", ".jdf"]
     DirFilesUti.recursively_getPathFiles(sdir, function (spathfname) {
         var extnam = path.extname(spathfname)
+        var basenm = path.basename(spathfname)
         //console.log(spathfname, extnam)
         //if(!.match(/\.htm$/i)) continue
         if (imgext.indexOf(extnam) >= 0) {
