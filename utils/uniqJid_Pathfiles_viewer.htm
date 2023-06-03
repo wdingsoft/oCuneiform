@@ -3,6 +3,7 @@
 <script src="./uniqBasenameJid.json.js"></script>
 <script src="./uniqBasenameJid_dbm.js"></script>
 <script src="./uniqBasenamePathfileObj.json.js"></script>
+<script src="./table_enable_sort.js"></script>
 <style>
     img.iconic {
         height: 30px;
@@ -55,7 +56,8 @@
             var imgs = "<img src='" + jidview.JidSrc(jid) + "'/>"
             trs += `<tr><td>${idx++}</td><td>${imgs}</td><td>${ar.length}</td>><td>${get_cuneiform_icons(ar)}</td></tr>`
         }
-        $("#basenamePathfile").append(trs)
+        $("#basenamePathfile tbody").append(trs)
+        table_enable_sort("#basenamePathfile")
     }
     function zoomout(_this) {
         _this.style.width = '40px'
@@ -105,4 +107,6 @@
 
 <table border='1' id="basenamePathfile">
     <caption>Jid Match Cuneiforms</caption>
+    <thead><tr><th>#</th><th>OBC</th><th>No</th><th>Cuneiform Samples</th></tr></thead>
+    <tbody></tbody>
 </table>
