@@ -127,23 +127,27 @@ function get_uniq_basename(sdir) {
     })
     return retObj;
 }
-function trs_uniBasename(obj){
-    var trs="", idx=0;
-    for(let [basename, ar] of Object.entries(obj)){
-        trs+=`<tr><td>${idx++}</td><td title='${basename}' contenteditable></td><td>${basename}<br>`
-        ar.forEach(function(pthnm){
-            trs+=`<img class='iconic' src='${pthnm}'/>-`
+function trs_uniBasename(obj) {
+    var contxt = fs.readFileSync("uniqBasenameJid.json.js", "utf8")
+    var datstr = contxt.slice(contxt.indexOf("{"))
+    var uniqBasenameJidObj = JSON.parse(datstr)
+    
+    var trs = "", idx = 0;
+    for (let [basename, ar] of Object.entries(obj)) {
+        trs += `<tr><td>${idx++}</td><td title='${basename}' contenteditable></td><td>${basename}<br>`
+        ar.forEach(function (pthnm) {
+            trs += `<img class='iconic' src='${pthnm}'/>-`
         })
-        trs+=`</td><td>${ar.join("<br/>\n")}</td></tr>`
+        trs += `</td><td>${ar.join("<br/>\n")}</td></tr>`
     }
     return trs;
 }
 function main(sdir) {
     var retObj = get_uniq_basename(sdir)
-    fs.writeFileSync("uniqBasenameObj.json.js", JSON.stringify(retObj,null,4), "utf8");
+    fs.writeFileSync("uniqBasenameObj.json.js", JSON.stringify(retObj, null, 4), "utf8");
     console.log("Update: ", Object.keys(retObj).length);
-    var trs=trs_uniBasename(retObj)
-    var tabs=`${DefaultHtm}<table border='1'>${trs}</table>`
+    var trs = trs_uniBasename(retObj)
+    var tabs = `${DefaultHtm}<table border='1'>${trs}</table>`
     fs.writeFileSync("uniqBasenameObj.htm", tabs, "utf8");
     return Object.keys(retObj).length
 }
