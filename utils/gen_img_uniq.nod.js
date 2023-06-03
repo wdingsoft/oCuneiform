@@ -74,11 +74,30 @@ const DefaultHtm = `
         _this.style.width = '40px'
     }
     $(() => {
+        //////////////////////////////////
         $("img").on("click", function () {
             $(".hili").removeClass("hili")
             $(this).addClass("hili")
-            $(".hili")[0].scrollIntoView()
             $(this).toggleClass("iconic")
+            $(".hili")[0].scrollIntoView()
+        })
+
+        ///////////////////////////////////
+        $("#txa").on("click", function () {
+            var obj = {}
+            $("td[contenteditable]").each(function () {
+                var title = $(this).attr("title")
+                $(this).find("img").each(function () {
+                    if (!obj[title]) {
+                        obj[title] = {}
+                    }
+                    var src = $(this).attr("src")
+                    var ids = src.slice(-9, -4)
+                    obj[title][ids] = $(".hili").attr("src")
+                })
+            })
+            var str = JSON.stringify(obj, null, 4)
+            $(this).val(str)
         })
     })
 </script>
