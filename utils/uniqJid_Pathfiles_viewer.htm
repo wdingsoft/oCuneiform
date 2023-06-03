@@ -5,7 +5,11 @@
 <script src="./uniqBasenamePathfileObj.json.js"></script>
 <style>
     img.iconic {
-        width: 40px;
+        height: 30px;
+        margin-right: 3px;
+        padding: 1px;
+        background-color: gray;
+
     }
 
     .hili {
@@ -21,8 +25,8 @@
         position: fixed;
         left: 10px;
         background-color: lightblue;
-        width: 500px;
-        height: 50px;
+        width: 0px;
+        height: 0px;
         resize: both;
         overflow: scroll;
     }
@@ -32,26 +36,32 @@
     }
 </style>
 <script>
+    function get_cuneiform_icons(cunfnameAry) {
+        var icons = ""
+        cunfnameAry.forEach(function (basnam) {
+            var pathfile = uniqBasenamePathfileObj[basnam][0]
+            icons += `<img class='iconic' src='${pathfile}'/>`
+        })
+        return icons
+    }
     function init_load_Jid() {
+        var dbm = new uniqBasenameJid_dbm()
+        var jidObj = dbm.uniqJidObj()
         var jidview = new uniqBasenameJid_view()
         var uniqJid = {}
-        for (let [basnam, obj] of Object.entries(uniqBasenameJid)) {
+        var trs = "", idx = 0
+        for (let [jid, obj] of Object.entries(jidObj)) {
             var ar = Object.keys(obj)
-            var imgs = ""
-            ar.forEach(function (jid) {
-                imgs += "<img src='" + jidview.JidSrc(jid) + "'/>"
-            })
-            $("td[title='" + basnam + "']").append(imgs)
+            var imgs = "<img src='" + jidview.JidSrc(jid) + "'/>"
+            trs += `<tr><td>${idx++}</td><td>${imgs}</td><td>${ar.length}</td>><td>${get_cuneiform_icons(ar)}</td></tr>`
         }
-
-        var igm = jidview.uniqJidImgs()
-        $("#uniqJidList").append(igm)
+        $("#basenamePathfile").append(trs)
     }
     function zoomout(_this) {
         _this.style.width = '40px'
     }
     $(() => {
-        gen_table()
+        //gen_table()
         init_load_Jid()
 
         $(".editable").each(function () {
@@ -61,8 +71,8 @@
         //////////////////////////////////
         $("img").on("click", function () {
             $(".hili").removeClass("hili")
-            $(this).addClass("hili")
             $(this).toggleClass("iconic")
+            $(this).addClass("hili")
             $(".hili")[0].scrollIntoView()
         })
 
@@ -85,18 +95,7 @@
         })
     })
 
-    function gen_table() {
-        var trs = "", idx = 0;
-        for (let [basename, ar] of Object.entries(uniqBasenamePathfileObj)) {
-            trs += `<tr><td>${idx++}</td><td title='${basename}' class='editable'></td><td>${basename}<br>`
-            ar.forEach(function (pthnm) {
-                trs += `<img class='iconic' src='${pthnm}'/>-`
-            })
-            trs += `</td><td>${ar.join("<br/>\n")}</td></tr>`
-        }
-        $("#basenamePathfile").html(trs) 
-        return trs;
-    }
+
 </script>
 <div id="uniqJidList"></div>
 <textarea id="txa"></textarea>
@@ -105,4 +104,5 @@
 
 
 <table border='1' id="basenamePathfile">
+    <caption>Jid Match Cuneiforms</caption>
 </table>
