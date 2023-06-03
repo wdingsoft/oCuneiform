@@ -1,4 +1,4 @@
-{
+var uniqBasenameObj = {
     "P000723.jpg": [
         "../cuneiform/CDLI-Found Texts_files/P000723.jpg",
         "../cuneiform/cunei2/P000723.jpg"

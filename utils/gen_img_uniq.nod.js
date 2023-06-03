@@ -165,6 +165,8 @@ function get_uniq_basename(sdir) {
             console.log(spathfname, extnam)
         }
     })
+    var str="var uniqBasenameObj = " + JSON.stringify(retObj,null,4)
+    fs.writeFileSync("uniqBasenameObj.json.js", str, "utf8");
     return retObj;
 }
 function trs_uniBasename(obj) {
@@ -184,7 +186,6 @@ function trs_uniBasename(obj) {
 }
 function main(sdir) {
     var retObj = get_uniq_basename(sdir)
-    fs.writeFileSync("uniqBasenameObj.json.js", JSON.stringify(retObj, null, 4), "utf8");
     console.log("Update: ", Object.keys(retObj).length);
     var trs = trs_uniBasename(retObj)
     var tabs = `${DefaultHtm}<table border='1'>${trs}</table>`
