@@ -58,6 +58,7 @@ const DefaultHtm = `
 
 
 
+
 <!-------------------Begin--------------->
 <script src="./jquery.js"></script>
 <script src="./uniqBasenameJid.json.js"></script>
@@ -140,11 +141,10 @@ const DefaultHtm = `
         })
     })
 </script>
-<div id="uniqJidList" contenteditable></div>
+<div id="uniqJidList"></div>
 <textarea id="txa"></textarea>
 <hr />
 <!---------------End-------------->
-
 
 
 `
