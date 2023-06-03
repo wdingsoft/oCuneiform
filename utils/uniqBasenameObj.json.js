@@ -1851,8 +1851,8 @@
     "26-2_HQ_Berlin-6_005b.png": [
         "../cuneiform/burn/Sumer/26-2_HQ_Berlin-6_005b.png"
     ],
-    "Screen Shot 2023-06-03 at 07.33.48.png": [
-        "../cuneiform/burn/Sumer/Screen Shot 2023-06-03 at 07.33.48.png"
+    "26-2_HQ_Berlin-6_005b_subtitle.png": [
+        "../cuneiform/burn/Sumer/26-2_HQ_Berlin-6_005b_subtitle.png"
     ],
     "ox_burnt_marks.png": [
         "../cuneiform/burn/Sumer/ox_burnt_marks.png"

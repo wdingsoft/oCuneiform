@@ -55,9 +55,14 @@ var DirFilesUti = {
 }
 
 const DefaultHtm = `
+
+<script src="./jquery.js"></script>
 <style> 
-img{
+img.iconic{
     width:40px;
+}
+.hili{
+    border:1px solid red;
 }
 </style>
 <script>
@@ -68,8 +73,17 @@ function zoomin(_this){
 function zoomout(_this){
     _this.style.width='40px'
 }
+$(()=>{
+    $("img").on("click",function(){
+        $(".hili").removeClass("hili")
+        $(this).addClass("hili")
+        $(this).toggleClass("iconic")
+    })
+})
 </script>
 <img id="zoomer" style="width:400px;"/>
+<textarea id="txa"></textarea>
+<hr/>
 `
 
 function get_uniq_basename(sdir) {
@@ -95,7 +109,7 @@ function trs_uniBasename(obj){
     for(let [basename, ar] of Object.entries(obj)){
         trs+=`<tr><td>${idx++}</td><td title='${basename}' contenteditable></td><td>${basename}<br>`
         ar.forEach(function(pthnm){
-            trs+=`<img src='${pthnm}'/>-`
+            trs+=`<img class='iconic' src='${pthnm}'/>-`
         })
         trs+=`</td><td>${ar.join("<br/>\n")}</td></tr>`
     }
