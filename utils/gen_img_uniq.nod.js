@@ -57,9 +57,11 @@ var DirFilesUti = {
 const DefaultHtm = `
 
 
+
 <!-------------------Begin--------------->
 <script src="./jquery.js"></script>
 <script src="./uniqBasenameJid.json.js"></script>
+<script src="./uniqBasenameJid_dbm.js"></script>
 <style>
     img.iconic {
         width: 40px;
@@ -72,18 +74,34 @@ const DefaultHtm = `
         position: fixed;
         right:30px;
     }
+    #uniqJidList{
+        position: fixed;
+        left:10px;
+        background-color: lightblue;
+        width:500px;
+        height: 50px;
+        resize: both;
+        overflow: scroll;
+    }
+    td.editable{
+        background-color: antiquewhite;
+    }
 </style>
 <script>
     function init_load_Jid() {
-        var imgAddr="http://34.227.20.213/obi/data/obimg/odb/tbi/img/jgif/";//62859.gif
+        var jidview =new uniqBasenameJid_view()
+        var uniqJid={}
         for(let [basnam, obj] of Object.entries(uniqBasenameJid)){
             var ar = Object.keys(obj)
             var imgs = ""
             ar.forEach(function(jid){
-                imgs+="<img src='" + imgAddr + jid + ".gif'></img>"
+                imgs+="<img src='" + jidview.JidSrc(jid) + "'/>"
             })
             $("td[title='"+basnam +"']").append(imgs)
         }
+
+        var igm = jidview.uniqJidImgs()
+        $("#uniqJidList").append(igm)
     }
     function zoomout(_this) {
         _this.style.width = '40px'
@@ -122,10 +140,11 @@ const DefaultHtm = `
         })
     })
 </script>
-<img id="zoomer" style="width:400px;" />
+<div id="uniqJidList" contenteditable></div>
 <textarea id="txa"></textarea>
 <hr />
 <!---------------End-------------->
+
 
 
 `
