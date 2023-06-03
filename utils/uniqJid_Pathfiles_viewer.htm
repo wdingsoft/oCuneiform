@@ -1,0 +1,108 @@
+<!-------------------Begin--------------->
+<script src="./jquery.js"></script>
+<script src="./uniqBasenameJid.json.js"></script>
+<script src="./uniqBasenameJid_dbm.js"></script>
+<script src="./uniqBasenamePathfileObj.json.js"></script>
+<style>
+    img.iconic {
+        width: 40px;
+    }
+
+    .hili {
+        border: 2px solid red;
+    }
+
+    #txa {
+        position: fixed;
+        right: 30px;
+    }
+
+    #uniqJidList {
+        position: fixed;
+        left: 10px;
+        background-color: lightblue;
+        width: 500px;
+        height: 50px;
+        resize: both;
+        overflow: scroll;
+    }
+
+    td.editable {
+        background-color: antiquewhite;
+    }
+</style>
+<script>
+    function init_load_Jid() {
+        var jidview = new uniqBasenameJid_view()
+        var uniqJid = {}
+        for (let [basnam, obj] of Object.entries(uniqBasenameJid)) {
+            var ar = Object.keys(obj)
+            var imgs = ""
+            ar.forEach(function (jid) {
+                imgs += "<img src='" + jidview.JidSrc(jid) + "'/>"
+            })
+            $("td[title='" + basnam + "']").append(imgs)
+        }
+
+        var igm = jidview.uniqJidImgs()
+        $("#uniqJidList").append(igm)
+    }
+    function zoomout(_this) {
+        _this.style.width = '40px'
+    }
+    $(() => {
+        gen_table()
+        init_load_Jid()
+
+        $(".editable").each(function () {
+            $(this).attr("contenteditable", true)
+        })
+
+        //////////////////////////////////
+        $("img").on("click", function () {
+            $(".hili").removeClass("hili")
+            $(this).addClass("hili")
+            $(this).toggleClass("iconic")
+            $(".hili")[0].scrollIntoView()
+        })
+
+        ///////////////////////////////////
+        $("#txa").on("click", function () {
+            var obj = {}
+            $("td.editable").each(function () {
+                var title = $(this).attr("title")
+                $(this).find("img").each(function () {
+                    if (!obj[title]) {
+                        obj[title] = {}
+                    }
+                    var src = $(this).attr("src")
+                    var ids = src.slice(-9, -4)
+                    obj[title][ids] = 1;//$(".hili").attr("src")
+                })
+            })
+            var str = "var uniqBasenameJid = " + JSON.stringify(obj, null, 4)
+            $(this).val(str)
+        })
+    })
+
+    function gen_table() {
+        var trs = "", idx = 0;
+        for (let [basename, ar] of Object.entries(uniqBasenamePathfileObj)) {
+            trs += `<tr><td>${idx++}</td><td title='${basename}' class='editable'></td><td>${basename}<br>`
+            ar.forEach(function (pthnm) {
+                trs += `<img class='iconic' src='${pthnm}'/>-`
+            })
+            trs += `</td><td>${ar.join("<br/>\n")}</td></tr>`
+        }
+        $("#basenamePathfile").html(trs) 
+        return trs;
+    }
+</script>
+<div id="uniqJidList"></div>
+<textarea id="txa"></textarea>
+<hr />
+<!---------------End-------------->
+
+
+<table border='1' id="basenamePathfile">
+</table>

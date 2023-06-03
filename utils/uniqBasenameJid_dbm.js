@@ -3,9 +3,10 @@ function uniqBasenameJid_dbm() {
 }
 uniqBasenameJid_dbm.prototype.uniqJidObj = function () {
     var uniqObj = {}
-    for (let [cunam, obj] of Object.entries(this.m_uniqBasenameJid)) {
+    for (let [cunfname, obj] of Object.entries(this.m_uniqBasenameJid)) {
         Object.keys(obj).forEach(function (jid) {
-            uniqObj[jid] = 1
+            if (!uniqObj[jid]) uniqObj[jid] = {}
+            uniqObj[jid][cunfname] = 1
         })
     }
     return uniqObj
