@@ -55,7 +55,10 @@ var DirFilesUti = {
 }
 
 const DefaultHtm = `
+
+<!-------------------Begin--------------->
 <script src="./jquery.js"></script>
+<script src="./uniqBasenameJid.json.js"></script>
 <style>
     img.iconic {
         width: 40px;
@@ -66,14 +69,27 @@ const DefaultHtm = `
     }
 </style>
 <script>
-    function zoomin(_this) {
-        //_this.style.width='400px'
-        document.getElementById("zoomer").src = _this.src
+    function init_load_Jid() {
+        var imgAddr=""
+        for(let [basnam, obj] of Object.entries(uniqBasenameJid)){
+            var ar = Object.keys(obj)
+            var imgs = ""
+            ar.forEach(function(jid){
+                imgs+="<img src='" + imgAddr + jid + ".jif'></img>"
+            })
+            $("td[title='"+basnam +"']").append(imgs)
+        }
     }
     function zoomout(_this) {
         _this.style.width = '40px'
     }
     $(() => {
+        init_load_Jid()
+
+        $(".editable").on("click",function(){
+            $(this).attr("contenteditable",true)
+        })
+        
         //////////////////////////////////
         $("img").on("click", function () {
             $(".hili").removeClass("hili")
@@ -104,7 +120,7 @@ const DefaultHtm = `
 <img id="zoomer" style="width:400px;" />
 <textarea id="txa"></textarea>
 <hr />
-<!----------------------------->
+<!---------------End-------------->
 
 
 `
@@ -134,7 +150,7 @@ function trs_uniBasename(obj) {
     
     var trs = "", idx = 0;
     for (let [basename, ar] of Object.entries(obj)) {
-        trs += `<tr><td>${idx++}</td><td title='${basename}' contenteditable></td><td>${basename}<br>`
+        trs += `<tr><td>${idx++}</td><td title='${basename}' class='editable'></td><td>${basename}<br>`
         ar.forEach(function (pthnm) {
             trs += `<img class='iconic' src='${pthnm}'/>-`
         })
