@@ -1,32 +1,37 @@
 
 <script src="./jquery.js"></script>
-<style> 
-img.iconic{
-    width:40px;
-}
-.hili{
-    border:1px solid red;
-}
+<style>
+    img.iconic {
+        width: 40px;
+    }
+
+    .hili {
+        border: 2px solid red;
+    }
 </style>
 <script>
-function zoomin(_this){
-    //_this.style.width='400px'
-    document.getElementById("zoomer").src = _this.src
-}
-function zoomout(_this){
-    _this.style.width='40px'
-}
-$(()=>{
-    $("img").on("click",function(){
-        $(".hili").removeClass("hili")
-        $(this).addClass("hili")
-        $(this).toggleClass("iconic")
+    function zoomin(_this) {
+        //_this.style.width='400px'
+        document.getElementById("zoomer").src = _this.src
+    }
+    function zoomout(_this) {
+        _this.style.width = '40px'
+    }
+    $(() => {
+        $("img").on("click", function () {
+            $(".hili").removeClass("hili")
+            $(this).addClass("hili")
+            $(".hili")[0].scrollIntoView()
+            $(this).toggleClass("iconic")
+        })
     })
-})
 </script>
-<img id="zoomer" style="width:400px;"/>
+<img id="zoomer" style="width:400px;" />
 <textarea id="txa"></textarea>
-<hr/>
+<hr />
+<!----------------------------->
+
+
 <table border='1'><tr><td>0</td><td title='P000723.jpg' contenteditable></td><td>P000723.jpg<br><img class='iconic' src='../cuneiform/CDLI-Found Texts_files/P000723.jpg'/>-<img class='iconic' src='../cuneiform/cunei2/P000723.jpg'/>-</td><td>../cuneiform/CDLI-Found Texts_files/P000723.jpg<br/>
 ../cuneiform/cunei2/P000723.jpg</td></tr><tr><td>1</td><td title='P000728.jpg' contenteditable></td><td>P000728.jpg<br><img class='iconic' src='../cuneiform/CDLI-Found Texts_files/P000728.jpg'/>-</td><td>../cuneiform/CDLI-Found Texts_files/P000728.jpg</td></tr><tr><td>2</td><td title='P005576_l.jpg' contenteditable></td><td>P005576_l.jpg<br><img class='iconic' src='../cuneiform/CDLI-Found Texts_files/P005576_l.jpg'/>-<img class='iconic' src='../cuneiform/cunei2/P005576_l.jpg'/>-</td><td>../cuneiform/CDLI-Found Texts_files/P005576_l.jpg<br/>
 ../cuneiform/cunei2/P005576_l.jpg</td></tr><tr><td>3</td><td title='P005578.jpg' contenteditable></td><td>P005578.jpg<br><img class='iconic' src='../cuneiform/CDLI-Found Texts_files/P005578.jpg'/>-<img class='iconic' src='../cuneiform/cunei2/P005578.jpg'/>-</td><td>../cuneiform/CDLI-Found Texts_files/P005578.jpg<br/>

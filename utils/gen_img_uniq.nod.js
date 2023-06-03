@@ -55,35 +55,39 @@ var DirFilesUti = {
 }
 
 const DefaultHtm = `
-
 <script src="./jquery.js"></script>
-<style> 
-img.iconic{
-    width:40px;
-}
-.hili{
-    border:1px solid red;
-}
+<style>
+    img.iconic {
+        width: 40px;
+    }
+
+    .hili {
+        border: 2px solid red;
+    }
 </style>
 <script>
-function zoomin(_this){
-    //_this.style.width='400px'
-    document.getElementById("zoomer").src = _this.src
-}
-function zoomout(_this){
-    _this.style.width='40px'
-}
-$(()=>{
-    $("img").on("click",function(){
-        $(".hili").removeClass("hili")
-        $(this).addClass("hili")
-        $(this).toggleClass("iconic")
+    function zoomin(_this) {
+        //_this.style.width='400px'
+        document.getElementById("zoomer").src = _this.src
+    }
+    function zoomout(_this) {
+        _this.style.width = '40px'
+    }
+    $(() => {
+        $("img").on("click", function () {
+            $(".hili").removeClass("hili")
+            $(this).addClass("hili")
+            $(".hili")[0].scrollIntoView()
+            $(this).toggleClass("iconic")
+        })
     })
-})
 </script>
-<img id="zoomer" style="width:400px;"/>
+<img id="zoomer" style="width:400px;" />
 <textarea id="txa"></textarea>
-<hr/>
+<hr />
+<!----------------------------->
+
+
 `
 
 function get_uniq_basename(sdir) {
