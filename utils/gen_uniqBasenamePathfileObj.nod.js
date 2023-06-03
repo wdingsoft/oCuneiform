@@ -149,7 +149,7 @@ const DefaultHtm = `
 
 `
 
-function get_uniq_basename(sdir) {
+function gen_uniq_basename(sdir) {
     var retObj = {}
     var imgext = [".png", ".jpg", ".jpeg", ".img", ".jdf"]
     DirFilesUti.recursively_getPathFiles(sdir, function (spathfname) {
@@ -185,12 +185,12 @@ function trs_uniBasename(obj) {
     return trs;
 }
 function main(sdir) {
-    var retObj = get_uniq_basename(sdir)
+    var retObj = gen_uniq_basename(sdir)
     console.log("Update: ", Object.keys(retObj).length);
-    var trs = trs_uniBasename(retObj)
-    var tabs = `${DefaultHtm}<table border='1'>${trs}</table>`
-    fs.writeFileSync("uniqBasenameObj.htm", tabs, "utf8");
-    return Object.keys(retObj).length
+    //var trs = trs_uniBasename(retObj)
+    //var tabs = `${DefaultHtm}<table border='1'>${trs}</table>`
+    //fs.writeFileSync("uniqBasenameObj.htm", tabs, "utf8");
+    //return Object.keys(retObj).length
 }
 
 function main_htm(sdir) {
