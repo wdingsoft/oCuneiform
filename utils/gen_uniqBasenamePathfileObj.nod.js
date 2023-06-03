@@ -71,7 +71,7 @@ function gen_uniq_basename(sdir) {
             console.log(spathfname, extnam)
         }
     })
-    //////sort by filesize
+    //////sort by filesize descend.
     for(let [basename, ary] of Object.entries(retObj)){
         ary.sort(function(f1,f2){
             var sta1 = fs.statSync(f1)
